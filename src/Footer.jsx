@@ -23,7 +23,7 @@ export default function Footer() {
     <footer className="bg-sea text-[#ffffff] dark:bg-gradient-to-b dark:from-[#0b1d3d] dark:via-sea dark:to-sea">
       <Reveal className="mx-auto flex max-w-6xl flex-wrap items-end justify-between gap-10 px-5 pt-16">
         <div>
-          <span className="logo-always block w-fit leading-none"><img src="/logo.png" alt="Endloops" width="439" height="127" className="h-8 w-auto" /></span>
+          <span className="logo-always block w-fit leading-none"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="Endloops" width="439" height="127" className="h-8 w-auto" /></span>
           <p className="mt-6 max-w-lg font-display text-3xl leading-snug sm:text-4xl">Built in Dubai, for finance teams across the GCC.</p>
           <p className="mt-3 max-w-md text-[#ffffff]/80">Endloops is the technology company from Alkazim, an accounting and audit firm based in Dubai.</p>
           <div className="mt-5 flex flex-wrap items-center gap-4"><DubaiClock /><span lang="ar" dir="rtl" className="font-display text-2xl">دبي</span></div>

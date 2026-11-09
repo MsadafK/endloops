@@ -33,7 +33,7 @@ export default function Header() {
     <header className={`sticky top-0 z-20 border-b border-rule bg-white/95 backdrop-blur transition-[transform,box-shadow] duration-300 focus-within:translate-y-0 ${hide ? '-translate-y-full' : ''} ${p > 0.5 ? 'shadow-[0_10px_30px_-20px_rgb(var(--ink)/0.5)]' : ''}`}>
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <a href="#top" aria-label="Endloops home" className="transition-transform duration-300 hover:scale-105">
-          <span className="logo-plate block leading-none"><img src="/logo.png" alt="Endloops" width="439" height="127" className="h-8 w-auto" /></span>
+          <span className="logo-plate block leading-none"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="Endloops" width="439" height="127" className="h-8 w-auto" /></span>
         </a>
         <nav aria-label="Main" className="flex items-center gap-3 md:gap-7">
           {nav.map(([l, h, id]) => (
