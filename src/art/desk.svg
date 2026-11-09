@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+<path class="f-tick" fill-opacity=".14" d="M70 120C60 50 150 10 240 30C340 5 440 60 430 150C445 240 380 300 270 305C170 330 60 280 70 120Z"/>
+<path class="s-tick fl" d="M92 96l8 8 18-20" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="s-tick fl2" d="M436 232l7 7 15-18" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="fl2"><g transform="rotate(5 380 120)"><rect class="f-bg s-ink" x="330" y="56" width="100" height="122" rx="6" stroke-width="3"/>
+<rect class="f-rule" x="344" y="76" width="50" height="6" rx="3"/><rect class="f-rule" x="344" y="100" width="42" height="6" rx="3"/><rect class="f-rule" x="344" y="124" width="52" height="6" rx="3"/><rect class="f-rule" x="344" y="148" width="38" height="6" rx="3"/>
+<path class="s-tick" d="M404 80l5 5 10-12M404 104l5 5 10-12M404 152l5 5 10-12" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="s-violet" cx="412" cy="127" r="9" fill="none" stroke-width="3"/></g></g>
+<rect class="f-violet" x="108" y="180" width="14" height="70" rx="7"/>
+<rect class="f-paper s-ink" x="50" y="236" width="380" height="90" rx="4" stroke-width="3"/>
+<path class="f-royal" d="M122 240C122 200 130 182 152 180C172 180 182 200 182 240Z"/>
+<circle fill="#E8B48F" cx="150" cy="158" r="17"/>
+<path class="f-ink" d="M133 157C131 138 165 133 168 154C160 146 146 148 133 157Z"/>
+<path class="s-royal" d="M170 198L212 223" stroke-width="11" stroke-linecap="round" fill="none"/>
+<circle fill="#E8B48F" cx="214" cy="224" r="6"/>
+<rect class="f-ink" x="40" y="226" width="400" height="14" rx="3"/>
+<rect class="f-ink" x="196" y="214" width="116" height="12" rx="3"/>
+<rect class="f-bg s-ink" x="206" y="140" width="96" height="76" rx="5" stroke-width="3"/>
+<rect class="f-rule" x="218" y="156" width="50" height="6" rx="3"/><rect class="f-rule" x="218" y="174" width="40" height="6" rx="3"/><rect class="f-rule" x="218" y="192" width="46" height="6" rx="3"/>
+<path class="s-tick tw" d="M274 158l5 5 10-12M274 194l5 5 10-12" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="s-violet" cx="284" cy="177" r="8" fill="none" stroke-width="3"/>
+<rect class="f-bg s-ink" x="350" y="204" width="76" height="22" rx="2" stroke-width="3"/><rect class="f-bg s-ink" x="356" y="188" width="70" height="16" rx="2" stroke-width="3"/>
+<rect class="f-violet" x="64" y="202" width="26" height="24" rx="3"/>
+<path class="f-tick sway" d="M77 202C60 180 62 160 77 150C92 160 94 182 77 202ZM77 202C98 190 108 176 104 164C88 170 78 184 77 202Z"/>
+</svg>
