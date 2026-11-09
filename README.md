@@ -76,3 +76,7 @@ npm run build
 ```
 
 The generated files are written to `dist/`. Deploy that directory with a static hosting provider such as Vercel, Netlify, or GitHub Pages. For Vercel or Netlify, use `npm run build` as the build command and `dist` as the output directory.
+
+### GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds and deploys `dist/` whenever code is pushed to `main`. In the repository's **Settings → Pages**, set the build and deployment source to **GitHub Actions**. The Vite base path is configured for the `https://<user>.github.io/endloops/` project site.
